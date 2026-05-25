@@ -1,10 +1,10 @@
-let kiemTra = prompt ("Nhập điểm kiểm tra của bạn:"); 
-let giuaKy = prompt ("Nhập điểm giữa kỳ của bạn:");
-let cuoiKy = prompt ("Nhập điểm cuối kỳ của bạn:");
+let kiemTra = Number(prompt("Nhập điểm kiểm tra của bạn:"));
+let giuaKy = Number(prompt("Nhập điểm giữa kỳ của bạn:"));
+let cuoiKy = Number(prompt("Nhập điểm cuối kỳ của bạn:"));
 
 // 2. Tính điểm trung bình (hệ số: KT 1, Giữa Kỳ 2, Cuối Kỳ 3)
 let dtb = (kiemTra + (giuaKy * 2) + (cuoiKy * 3)) / 6;
-dtb = parseInt(dtb);
+
 
 // 3. Xếp loại học lực bằng câu lệnh if...else
 let xepLoai = "";
